@@ -86,7 +86,7 @@ client.ride_request(PickupLong:  '31.276942',
 
 ## History
 
-The structure of this gem is based on [slack-ruby-gem](https://github.com/slack-ruby/slack-ruby-client).
+The structure of this gem is based on [slack-ruby-client](https://github.com/slack-ruby/slack-ruby-client).
 
 ## Development
 
