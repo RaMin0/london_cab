@@ -42,6 +42,10 @@ module LondonCab
                                        'CustomerEmail' => customer_email)['Result']
         end
 
+        def ride_details(ride_id:)
+          post("CancelRide/#{ride_id}")['Result']
+        end
+
         def ride_cancel(ride_id:)
           post("CancelRide/#{ride_id}")['Result']['IsCanceled']
         end
