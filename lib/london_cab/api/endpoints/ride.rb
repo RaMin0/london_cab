@@ -43,7 +43,7 @@ module LondonCab
         end
 
         def ride_details(ride_id:)
-          post("GetTripDetails/#{ride_id}")['Result']
+          get("GetTripDetails/#{ride_id}")['Result']
         end
 
         def ride_cancel(ride_id:)
